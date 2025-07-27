@@ -8,7 +8,7 @@ class WeatherBot {
         console.log('🚀 Initializing WeatherBot...');
         
         // API configuration - Only OpenWeatherMap needed
-        this.weatherApiKey = 'ae5135324a535d10ac54e229bb478122'; // Your OpenWeatherMap API key
+        this.weatherApiKey = 'add your api key'; // Your OpenWeatherMap API key
         this.weatherBaseUrl = 'https://api.openweathermap.org/data/2.5/weather';
         
         console.log('🔑 Weather API Key:', this.weatherApiKey ? 'SET' : 'NOT SET');
