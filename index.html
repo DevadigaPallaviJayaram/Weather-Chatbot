@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherBot - Your AI Weather Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🌤️ WeatherBot</h1>
+            <p>Your AI Weather Assistant</p>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="welcome-message">
+                <h3>👋 Welcome to WeatherBot!</h3>
+                <p>I'm your weather assistant! You can ask me about weather in many ways:</p>
+                <ul style="text-align: left; margin-top: 10px; padding-left: 20px;">
+                    <li>"weather in London"</li>
+                    <li>"Tokyo weather"</li>
+                    <li>"How's the weather in Paris?"</li>
+                    <li>Or just type: "New York"</li>
+                </ul>
+                <p style="margin-top: 10px;"><em>I'll give you current weather info and helpful advice!</em></p>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    class="input-field" 
+                    id="cityInput" 
+                    placeholder="Type a city name or ask about weather... (e.g., 'London' or 'weather in Tokyo')"
+                    maxlength="100"
+                >
+                <button class="send-btn" id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>      
